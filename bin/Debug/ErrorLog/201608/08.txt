@@ -1,0 +1,34 @@
+****************************异常文本****************************
+【出现时间】：2016/8/8 17:54:01
+【异常类型】：BadImageFormatException
+【异常信息】：试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+【堆栈调用】：   在 dmsk.jk.InitCard()
+   在 dmsk.common.cachu()
+   在 UserManager.Info.button6_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Info.cs:行号 142
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/8/8 17:54:18
+【异常类型】：BadImageFormatException
+【异常信息】：试图加载格式不正确的程序。 (异常来自 HRESULT:0x8007000B)
+【堆栈调用】：   在 dmsk.jk.InitCard()
+   在 dmsk.common.cachu()
+   在 UserManager.Info.button6_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Info.cs:行号 142
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+

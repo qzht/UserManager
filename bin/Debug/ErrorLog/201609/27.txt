@@ -1,0 +1,54 @@
+****************************异常文本****************************
+【出现时间】：2016/9/27 16:24:35
+【异常类型】：ArgumentException
+【异常信息】：列“Old”不属于表 。
+【堆栈调用】：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserManager.Program.Main()
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/27 16:28:48
+【异常类型】：ArgumentException
+【异常信息】：列“Old”不属于表 。
+【堆栈调用】：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserManager.Program.Main()
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/27 16:29:17
+【异常类型】：ArgumentException
+【异常信息】：列“Old”不属于表 。
+【堆栈调用】：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserManager.Program.Main()
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/27 16:29:24
+【异常类型】：ArgumentException
+【异常信息】：列“Old”不属于表 。
+【堆栈调用】：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserManager.Program.Main()
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/27 16:29:34
+【异常类型】：ArgumentException
+【异常信息】：列“Old”不属于表 。
+【堆栈调用】：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserManager.Program.Main()
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/27 16:29:42
+【异常类型】：ArgumentException
+【异常信息】：列“Old”不属于表 。
+【堆栈调用】：   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 UserManager.Program.Main()
+***************************************************************
+

@@ -1,0 +1,106 @@
+****************************异常文本****************************
+【出现时间】：2016/9/12 10:18:06
+【异常类型】：ArgumentException
+【异常信息】：参数 autoSizeColumnMode 对此操作无效。它不能为 NotSet、None 或 Fill，而需要指示大小调整标准。
+【堆栈调用】：   在 System.Windows.Forms.DataGridView.AutoResizeColumn(Int32 columnIndex, DataGridViewAutoSizeColumnMode autoSizeColumnMode, Boolean fixedHeight)
+   在 System.Windows.Forms.DataGridView.AutoResizeColumn(Int32 columnIndex, DataGridViewAutoSizeColumnMode autoSizeColumnMode)
+   在 UserManager.QueryJiaoFei.button1_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\QueryJiaoFei.cs:行号 182
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/12 16:20:51
+【异常类型】：IndexOutOfRangeException
+【异常信息】：在位置 0 处没有任何行。
+【堆栈调用】：   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 UserManager.Main.Main_FormClosing(Object sender, FormClosingEventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Main.cs:行号 134
+   在 System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   在 System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   在 System.Windows.Forms.Application.ExitInternal()
+   在 System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   在 System.Windows.Forms.Application.Exit()
+   在 UserManager.Main.toolStripButton7_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Main.cs:行号 497
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/12 16:21:25
+【异常类型】：IndexOutOfRangeException
+【异常信息】：在位置 0 处没有任何行。
+【堆栈调用】：   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 UserManager.Main.Main_FormClosing(Object sender, FormClosingEventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Main.cs:行号 134
+   在 System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   在 System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   在 System.Windows.Forms.Application.ExitInternal()
+   在 System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   在 System.Windows.Forms.Application.Exit()
+   在 UserManager.Main.toolStripButton7_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Main.cs:行号 497
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/9/12 17:13:30
+【异常类型】：IndexOutOfRangeException
+【异常信息】：在位置 0 处没有任何行。
+【堆栈调用】：   在 System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   在 System.Data.DataRowCollection.get_Item(Int32 index)
+   在 UserManager.Main.Main_FormClosing(Object sender, FormClosingEventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Main.cs:行号 134
+   在 System.Windows.Forms.Form.OnFormClosing(FormClosingEventArgs e)
+   在 System.Windows.Forms.Form.RaiseFormClosingOnAppExit()
+   在 System.Windows.Forms.Application.ExitInternal()
+   在 System.Windows.Forms.Application.Exit(CancelEventArgs e)
+   在 System.Windows.Forms.Application.Exit()
+   在 UserManager.Main.toolStripButton7_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Main.cs:行号 497
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+

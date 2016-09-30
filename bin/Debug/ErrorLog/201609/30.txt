@@ -1,0 +1,19 @@
+****************************异常文本****************************
+【出现时间】：2016/9/30 9:41:22
+【异常类型】：SEHException
+【异常信息】：外部组件发生异常。
+【堆栈调用】：   在 dmsk.jk.Close_USB(Int32 icdev)
+   在 dmsk.common.pd_gsk()
+   在 UserManager.Info.button4_Click(Object sender, EventArgs e) 位置 E:\文档\项目代码\东明项目\YKT_DONGMING\UserManager\UserManager\Info.cs:行号 380
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+

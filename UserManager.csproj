@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FDEE339-0DC5-4C80-93B2-5B1FBEEFEEA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UserManager</RootNamespace>
+    <AssemblyName>用户管理中心</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>user_accept_128px_501332_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dmsk, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dmsk.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetPrint, Version=5.7.5420.40743, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DotNetPrint.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.5.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuditFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuditFee.Designer.cs">
+      <DependentUpon>AuditFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatteryTemp.Designer.cs">
+      <DependentUpon>BatteryTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common.cs" />
+    <Compile Include="DianPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DianPrice.Designer.cs">
+      <DependentUpon>DianPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Excel.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FzReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FzReport.Designer.cs">
+      <DependentUpon>FzReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JiaoFei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JiaoFei.Designer.cs">
+      <DependentUpon>JiaoFei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JiaoJieBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JiaoJieBan.Designer.cs">
+      <DependentUpon>JiaoJieBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jk.cs" />
+    <Compile Include="ListItem.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenAccountBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenAccountBatch.Designer.cs">
+      <DependentUpon>OpenAccountBatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelEnhanced.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PanelEnhanced.Designer.cs">
+      <DependentUpon>PanelEnhanced.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryCard.Designer.cs">
+      <DependentUpon>QueryCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryJiaoFei.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryJiaoFei.Designer.cs">
+      <DependentUpon>QueryJiaoFei.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryMerInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryMerInfo.Designer.cs">
+      <DependentUpon>QueryMerInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryRecordWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryRecordWork.Designer.cs">
+      <DependentUpon>QueryRecordWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QueryWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryWater.Designer.cs">
+      <DependentUpon>QueryWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RawPrinterHelper.cs" />
+    <Compile Include="Recharge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recharge.Designer.cs">
+      <DependentUpon>Recharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCard.Designer.cs">
+      <DependentUpon>ReportCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportCompany.Designer.cs">
+      <DependentUpon>ReportCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportHistoryCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportHistoryCard.Designer.cs">
+      <DependentUpon>ReportHistoryCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportHistoryWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportHistoryWater.Designer.cs">
+      <DependentUpon>ReportHistoryWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportJiZhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportJiZhang.Designer.cs">
+      <DependentUpon>ReportJiZhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPayWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportPayWater.Designer.cs">
+      <DependentUpon>ReportPayWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportWater.Designer.cs">
+      <DependentUpon>ReportWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReprotPayDian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReprotPayDian.Designer.cs">
+      <DependentUpon>ReprotPayDian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs" />
+    <Compile Include="RMB.cs" />
+    <Compile Include="SetDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetDatabase.Designer.cs">
+      <DependentUpon>SetDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShiChangKaKaiHu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShiChangKaKaiHu.Designer.cs">
+      <DependentUpon>ShiChangKaKaiHu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouJuReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouJuReport.Designer.cs">
+      <DependentUpon>ShouJuReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Temp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Temp.Designer.cs">
+      <DependentUpon>Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TempOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TempOther.Designer.cs">
+      <DependentUpon>TempOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TempYJ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TempYJ.Designer.cs">
+      <DependentUpon>TempYJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usercard.cs" />
+    <Compile Include="UserInfoChangeCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfoChangeCard.Designer.cs">
+      <DependentUpon>UserInfoChangeCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoClosing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfoClosing.Designer.cs">
+      <DependentUpon>UserInfoClosing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoLost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfoLost.Designer.cs">
+      <DependentUpon>UserInfoLost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoUnLost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfoUnLost.Designer.cs">
+      <DependentUpon>UserInfoUnLost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersInfo.Designer.cs">
+      <DependentUpon>UsersInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterPrice.Designer.cs">
+      <DependentUpon>WaterPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaterTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaterTemp.Designer.cs">
+      <DependentUpon>WaterTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YongHuGuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YongHuGuanLi.Designer.cs">
+      <DependentUpon>YongHuGuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZiDianLeiBie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZiDianLeiBie.Designer.cs">
+      <DependentUpon>ZiDianLeiBie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZiDianXiangMu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZiDianXiangMu.Designer.cs">
+      <DependentUpon>ZiDianXiangMu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AuditFee.resx">
+      <DependentUpon>AuditFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryTemp.resx">
+      <DependentUpon>BatteryTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DianPrice.resx">
+      <DependentUpon>DianPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FzReport.resx">
+      <DependentUpon>FzReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JiaoFei.resx">
+      <DependentUpon>JiaoFei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JiaoJieBan.resx">
+      <DependentUpon>JiaoJieBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenAccountBatch.resx">
+      <DependentUpon>OpenAccountBatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QueryCard.resx">
+      <DependentUpon>QueryCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryJiaoFei.resx">
+      <DependentUpon>QueryJiaoFei.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryMerInfo.resx">
+      <DependentUpon>QueryMerInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryRecordWork.resx">
+      <DependentUpon>QueryRecordWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QueryWater.resx">
+      <DependentUpon>QueryWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recharge.resx">
+      <DependentUpon>Recharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCard.resx">
+      <DependentUpon>ReportCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCompany.resx">
+      <DependentUpon>ReportCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportHistoryCard.resx">
+      <DependentUpon>ReportHistoryCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportHistoryWater.resx">
+      <DependentUpon>ReportHistoryWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportJiZhang.resx">
+      <DependentUpon>ReportJiZhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportPayWater.resx">
+      <DependentUpon>ReportPayWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportWater.resx">
+      <DependentUpon>ReportWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReprotPayDian.resx">
+      <DependentUpon>ReprotPayDian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource1.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetDatabase.resx">
+      <DependentUpon>SetDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShiChangKaKaiHu.resx">
+      <DependentUpon>ShiChangKaKaiHu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouJuReport.resx">
+      <DependentUpon>ShouJuReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Temp.resx">
+      <DependentUpon>Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TempOther.resx">
+      <DependentUpon>TempOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TempYJ.resx">
+      <DependentUpon>TempYJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfoChangeCard.resx">
+      <DependentUpon>UserInfoChangeCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfoClosing.resx">
+      <DependentUpon>UserInfoClosing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfoLost.resx">
+      <DependentUpon>UserInfoLost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfoUnLost.resx">
+      <DependentUpon>UserInfoUnLost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersInfo.resx">
+      <DependentUpon>UsersInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterPrice.resx">
+      <DependentUpon>WaterPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaterTemp.resx">
+      <DependentUpon>WaterTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YongHuGuanLi.resx">
+      <DependentUpon>YongHuGuanLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZiDianLeiBie.resx">
+      <DependentUpon>ZiDianLeiBie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZiDianXiangMu.resx">
+      <DependentUpon>ZiDianXiangMu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\new\用户中心\用户中心\用户中心\UserManager\XK.NBear\XK.NBear.csproj">
+      <Project>{DA6BC3B7-AE3A-4CC8-B1C9-9EB009D5B9B8}</Project>
+      <Name>XK.NBear</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="user_accept_128px_501332_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

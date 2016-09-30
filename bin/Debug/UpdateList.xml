@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="gb2312"?>
+<AutoUpdater>
+  <description>Application autoUpdate</description>
+  <Updater>
+	<Url>http://10.10.50.222:2222/</Url>
+	<LastUpdateTime>2005-09-05</LastUpdateTime>
+  </Updater>
+  <Application applicationId="ItemSoft">
+    <EntryPoint>用户管理中心.exe</EntryPoint>
+    <Location>.</Location>
+    <Version>1.0.0.6</Version>
+  </Application>
+  <Files>
+	   <File Ver="1.0.0.6" Name="用户管理中心.exe" />
+    <File Ver="1.0.0.6" Name="en_.net_framework_4_full_x86_ia64_508941.exe" />
+
+  </Files>
+</AutoUpdater>

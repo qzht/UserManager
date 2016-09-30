@@ -1,0 +1,38 @@
+****************************异常文本****************************
+【出现时间】：2016/7/26 16:23:27
+【异常类型】：ArgumentOutOfRangeException
+【异常信息】：“-1.00”的值对于“Value”无效。“Value”应介于 'Minimum' 和 'Maximum' 之间。
+参数名: Value
+【堆栈调用】：   在 System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   在 UserManager.Recharge.button2_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Recharge.cs:行号 117
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
+****************************异常文本****************************
+【出现时间】：2016/7/26 16:24:41
+【异常类型】：ArgumentOutOfRangeException
+【异常信息】：“-1.00”的值对于“Value”无效。“Value”应介于 'Minimum' 和 'Maximum' 之间。
+参数名: Value
+【堆栈调用】：   在 System.Windows.Forms.NumericUpDown.set_Value(Decimal value)
+   在 UserManager.Recharge.button2_Click(Object sender, EventArgs e) 位置 E:\Project\东明项目\new\用户中心\用户中心\用户中心\UserManager\UserManager\Recharge.cs:行号 117
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+***************************************************************
+
